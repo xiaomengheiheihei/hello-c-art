@@ -43,7 +43,7 @@
 
 <style>
 	/* c.css - 通用组件、模板样式库，可以当作一套ui库应用 */
-	@import './common/c.css';
+	@import './common/c-art.css';
 
 	/* 以下样式用于 hello c-app 演示所需 */
 	page {
