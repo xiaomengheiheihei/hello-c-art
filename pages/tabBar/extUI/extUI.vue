@@ -3,9 +3,6 @@
 		<view class="c-header-logo">
 			<image src="/static/extuiIndex.png"></image>
 		</view>
-		<view class="c-hello-text c-common-pb">
-			以下是c-app扩展组件示例，更多组件见插件市场：<u-link :href="'https://ext.dcloud.net.cn/'" :text="'https://ext.dcloud.net.cn'" :inWhiteList="true"></u-link>
-		</view>
 		<view class="c-card" v-for="(list,index) in lists" :key="index">
 			<view class="c-list">
 				<view class="c-list-cell c-collapse">

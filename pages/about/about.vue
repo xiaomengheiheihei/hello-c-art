@@ -6,31 +6,13 @@
 				<text class="tip">扫码体验c-app</text>
 			</view>
 			<view class="desc">
-				<text class="code">c-app</text>
+				<text class="code">c-art-app</text>
 				是一个使用 <text class="code">Vue.js</text> 开发跨平台应用的前端框架。
-			</view>
-			<view class="source">
-				<view class="title">本示例源码获取方式：</view>
-				<view class="source-list">
-					<view class="source-cell">
-						<text space="nbsp">1. </text>
-						<text>下载 HBuilderX，新建 c-app 项目时选择 <text class="code">Hello c-app</text> 模板。</text>
-					</view>
-					<view class="source-cell">
-						<text space="nbsp">2. </text>
-						<u-link class="link" :href="'https://github.com/dcloudio/hello-uniapp'" :text="'https://github.com/dcloudio/hello-uniapp'"></u-link>
-					</view>
-				</view>
 			</view>
 			<!-- #ifdef APP-PLUS -->
 			<button type="primary" @click="share">分享</button>
 			<!-- #endif -->
 		</view>
-		<!-- #ifdef APP-PLUS -->
-		<view class="version">
-			当前版本：{{version}}
-		</view>
-		<!-- #endif -->
 	</view>
 </template>
 
